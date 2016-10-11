@@ -202,7 +202,7 @@
                     }
                 };
                 req.open('post', url);
-                req.setRequestHeader('Content-Type', 'application/json');
+                // req.setRequestHeader('Content-Type', 'application/json');
 
                 var reportPayload = {stack: stackframes};
                 if (errorMsg !== undefined) {
